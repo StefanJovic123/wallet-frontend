@@ -1,0 +1,89 @@
+@import '~antd/dist/antd.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.Login-button {
+  color: white;
+  display: block;
+  font-size: 16px;
+  height: 60px;
+  margin: 10px auto;
+  width: 300px;
+}
+
+.Login-button:hover {
+  opacity: 0.9;
+}
+
+.Login-email {
+  background-color: darkgray;
+}
+
+.Login-fb {
+  background-color: rgb(72, 98, 163);
+}
+
+.Login-mm {
+  background-color: rgb(255, 125, 0);
+}
+
+.identicon {
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  margin-top: 30px;
+  font-size: large;
+}
+
+#components-layout-demo-top-side-2 .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.ant-row-rtl #components-layout-demo-top-side-2 .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
